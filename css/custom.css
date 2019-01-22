@@ -1,0 +1,46 @@
+html, body {
+	font-family: Arial, sans-serif;
+	color: green;
+	background-color: black;
+	height: 100%;
+}
+.container {
+	height: 100%;
+}
+
+#content {
+    margin: 0px auto;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+	border-style: dashed;
+	padding: 20px;
+}
+
+.movieImg {
+	float: left;
+	margin-right: 15px;
+	border-radius: 5px;
+	margin-top: 0px;
+}
+
+.tagline{
+	font-size: 2em;
+	font-style: italic;
+}
+
+label {
+	position: relative;
+	vertical-align: middle;
+	bottom: 1px;
+}
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=email] {
+	display: block;
+	margin-bottom: 15px;
+}
+input[type=checkbox] {
+	margin-bottom: 15px;
+}
